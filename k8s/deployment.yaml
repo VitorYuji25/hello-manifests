@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: hello-app
-          image: YOUR_DOCKER_USER/hello-app:latest   # será substituído pelo workflow
+          image: vitoryuji25/hello-app:latest
           ports:
             - containerPort: 80
